@@ -1,0 +1,16 @@
+# build output
+build/
+cmake-build-*/
+out/
+
+# test artefacts
+*.f32
+tests/render
+tests/render_stats
+__pycache__/
+
+# IDE / OS
+.vscode/
+.idea/
+*.user
+.DS_Store
